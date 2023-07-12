@@ -67,12 +67,12 @@
 # number = int(input('enter a number : '))
 
 # if number % 2 == 0 :
-#     print( f'{number} is even')
+#     print( formula'{number} is even')
 # else:
-#     print(f'{number} is odd')
+#     print(formula'{number} is odd')
 
 # if number%7 ==0:
-#     print(f'we can divide {number} by 7')
+#     print(formula'we can divide {number} by 7')
 
 
 # day = int(input('please enter a number'))

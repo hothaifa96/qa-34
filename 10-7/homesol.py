@@ -26,7 +26,7 @@
 # food = input('please enter your favfood : ')
 # rate = input('and how many time you eat it monthly : ')
 #
-# print(f'and the user eats {food}  {rate} times monthlyy  doesn\'t !!!!!!!')
+# print(formula'and the user eats {food}  {rate} times monthlyy  doesn\'t !!!!!!!')
 
 # 5
 # dog = input('please enter your dog name')

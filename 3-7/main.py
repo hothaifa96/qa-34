@@ -126,11 +126,11 @@
 
 # קלטו מהמשתש מספר הטלפון שלו ותדפסיו את המספר בלי הקידומת
 #קידומת של מספר טלפון היא 3 ספרות הראשונות
-
-phone_number = input('phone number please ?')
-
-print(phone_number[:3])
-print(phone_number[3:])
+#
+# phone_number = input('phone number please ?')
+#
+# print(phone_number[:3])
+# print(phone_number[3:])
 
 
 

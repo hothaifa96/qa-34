@@ -7,7 +7,7 @@ import random
 # name1 = input('enter a name : ')
 # name2 = input('enter your crush name : ')
 #
-# print(f'{name1} loves {name2}  {random.randrange(0,101)}')
+# print(formula'{name1} loves {name2}  {random.randrange(0,101)}')
 #
 
 
