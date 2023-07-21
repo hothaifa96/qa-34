@@ -118,7 +118,7 @@
 
 # e3 - write a python program to print the new price of the items
 # if the items cost between 100 and 500 print the price with 30% discount
-# else print the price with 20% discount
+# else print the price with 20-7% discount
 
 # price = float(input('enter the total price of your items: '))
 # #
