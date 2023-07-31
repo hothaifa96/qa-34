@@ -29,9 +29,9 @@ import datetime
 # log.write(f'{time}  {url} method : GET {res.status_code}\n')
 
 # ------- ---------
-url = 'https://'+ input('enter your url')
-start_time = time.time()
+url = 'https://' + input('enter your url')
+start_time = time.time()  # start counting
 res = requests.get(url)
-end_time = time.time()
+end_time = time.time()  # stop counting
 
-print(end_time - start_time )
+print(end_time - start_time)
