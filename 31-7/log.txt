@@ -1,0 +1,5 @@
+2023-07-19 31:20:43.048936  https://google.com/hodi method : GET 404
+2023-07-31 19:20:49.782610  https://w3schools.com method : GET 200
+2023-07-31 19:20:56.609023  https://youtube.com method : GET 200
+07_31 19:33  https://vivino.co.il method : GET 200
+19:35:12  https://yahoo.com method : GET 200
