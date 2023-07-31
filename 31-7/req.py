@@ -1,6 +1,7 @@
 # api testing
 # pip install requests
 
+import time
 import requests
 import datetime
 
@@ -18,7 +19,7 @@ import datetime
 #     print('failed')
 
 # # ------- log file to http request module --------
-# log = open(f'{datetime.datetime.now().strftime("%Y-%m-%d")}.txt', 'a+')# add a new file with a name of the date of today
+# log = open(f'{datetime.datetime.now().strftime("%Y-%m-%d")}.txt', 'a+')  # add a new file with a name of the date of today
 # url = input('please ente a site to check :')
 # url = 'https://'+url
 #
@@ -26,3 +27,11 @@ import datetime
 # res = requests.get(url)
 #
 # log.write(f'{time}  {url} method : GET {res.status_code}\n')
+
+# ------- ---------
+url = 'https://'+ input('enter your url')
+start_time = time.time()
+res = requests.get(url)
+end_time = time.time()
+
+print(end_time - start_time )
