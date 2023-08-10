@@ -1,0 +1,18 @@
+הלינק הבא : https://api.chucknorris.io/jokes/random￼ מחזיר לנו גיסון רנדומלי המכיל בדיחה על צק נוריס   אם נשלח בקשה מסוג GET ללינק הזה נקבל גייסון המכיל את המפתחות הבאין :
+￼￼"categories":
+￼"created_at":
+￼"icon_url":
+￼"id":
+￼"updated_at":
+￼"url":
+￼”value":
+ואם נשלח בקשה ללינק הבא נקבל רשימה של קטיגוריות : //:https api.chucknorris.io/jokes/categories
+ואם נשלח בקשה ל : https://api.chucknorris.io/jokes/search?query={query}
+ונחליף את מה שבתוך הסוגריים }{ לקטיגוריה נכונה נקבל בדיחה מהקטיגוריה הזו :
+- כתבוקודבפייטוןשפונהלאתר:    https://api.chucknorris.io/jokes/random הזה ומדפיס לנו אהid וה value מתוך התשובה שחוזרת
+- כתבוקודבפייטוןשפונהללינקהזה:   https://api.chucknorris.io/jokes/categories
+ושומר את כל הקטיגוריות הרשימה list ואז שולח בקשה ללינק    https://api.chucknorris.io/jokes/search?query={query} עם ה קטיגגוריה השלישית ברשימה 
+ 
+  תדאגו שהקוד לא נופל אף פעם )handle exeptions(
+כתבו קוד בשימוש מחלקת requsts ואפשר לבנות פונקציות
+￼￼￼￼￼￼
